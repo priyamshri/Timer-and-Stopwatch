@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(84, 159, 159);
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    animation-name: stop;
+    font-size: 56px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes stop{
+    0%{
+color: aqua;
+    }
+    20%{
+        color: red;
+    }
+    40%{
+        color: blue;
+    }
+    60%{
+        color: blueviolet;
+    }
+    80%{
+        color: chartreuse;
+    }
+    100%{
+        color: darkgoldenrod;
+    }
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    text-align: center;
+    margin-right: 15px;
+  }
+  
+  button {
+    background-color: #4c56af;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 400px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  button:hover{
+    
+    background: rgb(122, 29, 29);
+  }
+  
+ 
+  span{
+    color: orange;
+    font-size: 26px;
+  }
+  #timer-display {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  
+  #stopwatch-display {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  .timer-buttons,
+  .stopwatch-buttons {
+    margin-top: 200px;
+  }
+  
+  .timer-buttons button,
+  .stopwatch-buttons button {
+    font-size: 16px;
+    padding: 6px 16px;
+  }
+  
+  #timer {
+    margin-top: 50px;
+  }
+  
+  #stopwatch {
+    margin-top: 75px;
+  }
